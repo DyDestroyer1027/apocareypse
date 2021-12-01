@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/apocareypse/static/css/main.791ff7ea.chunk.css",
-    "main.js": "/apocareypse/static/js/main.3883fdef.chunk.js",
-    "main.js.map": "/apocareypse/static/js/main.3883fdef.chunk.js.map",
+    "main.css": "/apocareypse/static/css/main.e91f3bfb.chunk.css",
+    "main.js": "/apocareypse/static/js/main.63183178.chunk.js",
+    "main.js.map": "/apocareypse/static/js/main.63183178.chunk.js.map",
     "runtime-main.js": "/apocareypse/static/js/runtime-main.0a3abd03.js",
     "runtime-main.js.map": "/apocareypse/static/js/runtime-main.0a3abd03.js.map",
+    "static/css/2.e18788e8.chunk.css": "/apocareypse/static/css/2.e18788e8.chunk.css",
     "static/js/2.9bd04ee2.chunk.js": "/apocareypse/static/js/2.9bd04ee2.chunk.js",
     "static/js/2.9bd04ee2.chunk.js.map": "/apocareypse/static/js/2.9bd04ee2.chunk.js.map",
     "index.html": "/apocareypse/index.html",
-    "static/css/main.791ff7ea.chunk.css.map": "/apocareypse/static/css/main.791ff7ea.chunk.css.map",
+    "static/css/2.e18788e8.chunk.css.map": "/apocareypse/static/css/2.e18788e8.chunk.css.map",
+    "static/css/main.e91f3bfb.chunk.css.map": "/apocareypse/static/css/main.e91f3bfb.chunk.css.map",
     "static/js/2.9bd04ee2.chunk.js.LICENSE.txt": "/apocareypse/static/js/2.9bd04ee2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a3abd03.js",
+    "static/css/2.e18788e8.chunk.css",
     "static/js/2.9bd04ee2.chunk.js",
-    "static/css/main.791ff7ea.chunk.css",
-    "static/js/main.3883fdef.chunk.js"
+    "static/css/main.e91f3bfb.chunk.css",
+    "static/js/main.63183178.chunk.js"
   ]
 }
