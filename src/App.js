@@ -56,7 +56,7 @@ const durationRenderer = ({ days, hours, minutes, seconds, completed }) => {
 function App() {
   return (
     <div className="app">
-      <Snowfall />
+      <Snowfall snowflakeCount={400} style={{position: 'absolute'}}/>
       <div className='social-icons-container'>
         <SocialIcon url="https://github.com/dydestroyer1027/apocareypse" bgColor="#5E81AC" style={{ height: '4rem', width: '4rem' }} className='github-social-icon'/>
       </div>
@@ -70,12 +70,12 @@ function App() {
       <div className='information-container'>
           <div className='information'> 
             <div className='cards'>
-              <Card name='Objective' description='Last as long as possible without listening to <a href=https://www.youtube.com/watch?v=aAkMkVFwAoo>All I Want For Christmas Is You</a>' />
+              <Card name='Objective' description='Last as long as possible without listening to <a href=https://www.youtube.com/watch?v=aAkMkVFwAoo target="_blank" rel="noopener noreferrer">All I Want For Christmas Is You</a>' />
               <Card name='Duration' description='The Game begins on the 1st of December, and concludes on December 25th. '/>  
               <Card name='Rule 1' description='Only the original version of the song counts as losing, any remixes or covers are permitted.' />
               <Card name='Rule 2' description='Attempting to remove others from the game by sending them a link to the song, or playing it near them is allowed, but discouraged.' />
               <Card name='Losing' description='As soon as you recognize the song playing near you, you have lost the game.' />
-              <Card name='Additional Information' description='This version of the game was adapted from <a href=https://en.wikipedia.org/wiki/Whamageddon>Whamageddon</a>.' />
+              <Card name='Additional Information' description='This version of the game was adapted from <a href=https://en.wikipedia.org/wiki/Whamageddon target="_blank" rel="noopener noreferrer">Whamageddon</a>.' />
             </div>
         </div>
       </div>
