@@ -6,17 +6,17 @@
     "runtime-main.js": "/apocareypse/static/js/runtime-main.0a3abd03.js",
     "runtime-main.js.map": "/apocareypse/static/js/runtime-main.0a3abd03.js.map",
     "static/css/2.e18788e8.chunk.css": "/apocareypse/static/css/2.e18788e8.chunk.css",
-    "static/js/2.38c67a58.chunk.js": "/apocareypse/static/js/2.38c67a58.chunk.js",
-    "static/js/2.38c67a58.chunk.js.map": "/apocareypse/static/js/2.38c67a58.chunk.js.map",
+    "static/js/2.2a1ed29f.chunk.js": "/apocareypse/static/js/2.2a1ed29f.chunk.js",
+    "static/js/2.2a1ed29f.chunk.js.map": "/apocareypse/static/js/2.2a1ed29f.chunk.js.map",
     "index.html": "/apocareypse/index.html",
     "static/css/2.e18788e8.chunk.css.map": "/apocareypse/static/css/2.e18788e8.chunk.css.map",
     "static/css/main.631fcaa1.chunk.css.map": "/apocareypse/static/css/main.631fcaa1.chunk.css.map",
-    "static/js/2.38c67a58.chunk.js.LICENSE.txt": "/apocareypse/static/js/2.38c67a58.chunk.js.LICENSE.txt"
+    "static/js/2.2a1ed29f.chunk.js.LICENSE.txt": "/apocareypse/static/js/2.2a1ed29f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a3abd03.js",
     "static/css/2.e18788e8.chunk.css",
-    "static/js/2.38c67a58.chunk.js",
+    "static/js/2.2a1ed29f.chunk.js",
     "static/css/main.631fcaa1.chunk.css",
     "static/js/main.f2843bc8.chunk.js"
   ]
