@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/apocareypse/static/css/main.631fcaa1.chunk.css",
-    "main.js": "/apocareypse/static/js/main.f2843bc8.chunk.js",
-    "main.js.map": "/apocareypse/static/js/main.f2843bc8.chunk.js.map",
+    "main.js": "/apocareypse/static/js/main.021a6ce0.chunk.js",
+    "main.js.map": "/apocareypse/static/js/main.021a6ce0.chunk.js.map",
     "runtime-main.js": "/apocareypse/static/js/runtime-main.0a3abd03.js",
     "runtime-main.js.map": "/apocareypse/static/js/runtime-main.0a3abd03.js.map",
     "static/css/2.e18788e8.chunk.css": "/apocareypse/static/css/2.e18788e8.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.e18788e8.chunk.css",
     "static/js/2.2a1ed29f.chunk.js",
     "static/css/main.631fcaa1.chunk.css",
-    "static/js/main.f2843bc8.chunk.js"
+    "static/js/main.021a6ce0.chunk.js"
   ]
 }
