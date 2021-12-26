@@ -4,6 +4,11 @@ import React from 'react'
 import Snowfall from 'react-snowfall'
 import ReactHtmlParser from 'react-html-parser'
 import { SocialIcon } from 'react-social-icons';
+const now = new Date()
+var year = now.getFullYear()
+if(now.getDate() > 24 && now.getMonth() === 11) year += 1
+// For stupid date reasons, i have to do this. 
+//I'm assuming the year for duration and countdown purposes is the current one unless the event has ended, but it hasn't been new years yet (december 25th-december 31st)
 // Timer text component
 function Timer(props) {
   let text = 
@@ -32,25 +37,21 @@ function Card(props) {
 }
 // Renderer for the countdown to ApoCareypse
 const countdownRenderer = ({ days, hours, minutes, seconds, completed }) => {    
-  let now = new Date()
   if (completed) {
     // Renders the duration state of the ApoCareypse
-    return <Countdown date={new Date(new Date().getFullYear(), 11, 25)} renderer={durationRenderer}/>;
+    return <Countdown date={new Date(year, 11, 25)} renderer={durationRenderer}/>;
   } else {
     // Render a countdown
-    return <span className='countdown-text'><b>The {now.getFullYear()} ApoCareypse begins in: </b><br/> <Timer days={days} hours={hours} minutes={minutes} seconds={seconds}/> </span>;
+    return <span className='countdown-text'><b>The {year} ApoCareypse begins in: </b><br/> <Timer days={days} hours={hours} minutes={minutes} seconds={seconds}/> </span>;
   }
 };
 const durationRenderer = ({ days, hours, minutes, seconds, completed }) => {    
-  let now = new Date()
-  let year = now.getFullYear()
-  if(now.getDate() > 24 && now.getMonth() === 11) year += 1
   if (completed) {
     // Render a completed state
     return <Countdown date={new Date(year, 11, 1)} renderer={countdownRenderer} />;
   } else {
     // Render a countdown till the end
-    return <span className='countdown-text'><b>The {year} ApoCareypse has begun! </b><br/> It will conclude in: <br/><Timer days={days} hours={hours} minutes={minutes} seconds={seconds}/></span>;
+    return <span className='countdown-text'><b>The ApoCareypse has begun! </b><br/> It will conclude in: <br/><Timer days={days} hours={hours} minutes={minutes} seconds={seconds}/></span>;
   }
 };
 function App() {
@@ -63,7 +64,7 @@ function App() {
         <div className='countdown'>
           <div className="countdown-card">
             <div className="countdown-card-container">
-              <Countdown date={new Date(new Date().getFullYear(), 11, 1)} renderer={countdownRenderer}/>
+              <Countdown date={new Date(year, 11, 1)} renderer={countdownRenderer}/>
             </div>
           </div>
         </div>
